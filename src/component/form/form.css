@@ -16,6 +16,10 @@
   gap: 1rem;
   justify-content: space-between;
 }
+.InputContainer input,
+.InputContainer textarea {
+  width: 180px;
+}
 .formContainer button {
   cursor: pointer;
   background-color: rgb(20, 200, 182);
