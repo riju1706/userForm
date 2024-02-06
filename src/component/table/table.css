@@ -1,0 +1,18 @@
+.tableContainer {
+  width: 100vw;
+}
+table {
+  width: 50%;
+  margin: auto;
+}
+.tableRow {
+  display: flex;
+  justify-content: space-evenly;
+}
+.tableRow th,
+.tableRow td {
+  width: 170px;
+  overflow-wrap: break-word;
+  flex-wrap: wrap;
+}
+@media;

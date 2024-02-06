@@ -1,0 +1,31 @@
+.container {
+  width: 100vw;
+  display: flex;
+
+  justify-content: center;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 2rem;
+}
+.InputContainer {
+  margin-bottom: 0.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.formContainer button {
+  cursor: pointer;
+  background-color: rgb(20, 200, 182);
+  border: none;
+  width: 30%;
+  height: 2rem;
+  margin: 1rem auto;
+  border-radius: 5px;
+}
+.formContainer button:hover {
+  background-color: rgb(27, 144, 132);
+  color: rgb(255, 255, 255);
+}
